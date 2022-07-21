@@ -10,16 +10,30 @@
             
         }
         @keyframes example {
-        from {color:pink;}
-        to {color: greenyellow;}
+            0%   {color: #09fbd3;}
+            25%  {color: #fe53bb;}
+            50%  {color: #ffed00;}
+            75% {color: greenyellow;}
+            100%{color: #ff9de6;}
+        }
+        @media screen and (max-width: 400px) {
+            .navbar a {
+            float: none;
+            width: 100%;
+             }
         }
         .header{
-            padding:100px;
+            padding-top:10%;
+            padding-left: 10%;
+            padding-bottom:0px;
             text-align:left;
             color: white;
             animation-name: example;
-            animation-duration: 4s;
-            animation-iteration-count: 20;
+            animation-duration: 5s;
+            animation-iteration-count: 100;
+            font-weight: bold;
+            font-size:40pt;
+            font-family: Silk Serif;
             
         }
             
@@ -35,7 +49,7 @@
         .navbar a{
             float:right;
             display: block;
-            color:black;
+            color:white;
             text-align: center;
             padding: 25px 30px;
             text-decoration: none;
@@ -51,12 +65,23 @@
         .footer p{
             color:darkorange;
             text-align: center;
+            object-position: bottom;
         }
         .footer p:hover{
             text-decoration: line-through wavy pink 1px;
             
         }
-            
+        .pic{
+            height: auto;
+            width: 300px;
+            position:absolute;
+            left: 900px;
+            top: 200px
+        }
+        .desc{
+            color:white;
+            padding-left: 10%;
+        }
     </style>
 </head>
 <body>
@@ -69,9 +94,12 @@
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </div>
-    <h1 class = "header">Hey,👋 It's Yash.</h1>
+    <p class = "header">Hey,👋 It's Yash.</p>
+    <p class ="desc">I am a First year student at IIT Madras</p>
+    <img class="pic" src="https://raw.githubusercontent.com/yashkc2025/yashkc2025.github.io/main/pic.png"></img>
+    
     <div class="footer">
-        <p>Made with 💗 by <a href="https://github.com/yashkc2025">Yash</a> in 🇮🇳</p>
+        <p>Made with 💗 by <a href="https://github.com/yashkc2025">Yash</a></p>
     </div>
 </body>
 </html>
