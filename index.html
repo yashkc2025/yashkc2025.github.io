@@ -3,10 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yash Kumar</title>
+    <style>
+        body{
+            background-color: black;
+            
+        }
+        @keyframes example {
+        from {color:pink;}
+        to {color: greenyellow;}
+        }
+        .header{
+            padding:100px;
+            text-align:left;
+            color: white;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count: 20;
+            
+        }
+            
+        
+        .pic{
+            width: 20%;
+            height: auto;
+        }
+        .navbar{
+            overflow: hidden;
+            /*background-color: rgb(43, 121, 103);*/
+        }
+        .navbar a{
+            float:right;
+            display: block;
+            color:black;
+            text-align: center;
+            padding: 25px 30px;
+            text-decoration: none;
+        }
+        .navbar a:hover{
+            background-color: chartreuse;
+            color: black;
+        }
+        .footer a{
+            color:olivedrab; 
+            text-decoration: none;
+        }
+        .footer p{
+            color:darkorange;
+            text-align: center;
+        }
+        .footer p:hover{
+            text-decoration: line-through wavy pink 1px;
+            
+        }
+            
+    </style>
 </head>
 <body>
-    <p style="color:fuchsia">Hey, It's Yash.</p>
+    
+    <!--<div class = "pic">
+        <img src="https://raw.githubusercontent.com/yashkc2025/yashkc2025.github.io/main/pic.png" alt="Yash Kumar"
+    </div> -->
+    
+    <div class = "navbar">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <h1 class = "header">Hey,👋 It's Yash.</h1>
+    <div class="footer">
+        <p>Made with 💗 by <a href="https://github.com/yashkc2025">Yash</a> in 🇮🇳</p>
+    </div>
 </body>
 </html>
