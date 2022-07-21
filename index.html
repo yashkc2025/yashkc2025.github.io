@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Yash Kumar</title>
     <style>
         body{
             background-color: black;
-            
+            border-style:hidden;
+            border-color: pink;
+            border-width: 2px;
         }
         @keyframes example {
             0%   {color: #09fbd3;}
@@ -16,17 +19,11 @@
             75% {color: greenyellow;}
             100%{color: #ff9de6;}
         }
-        @media screen and (max-width: 400px) {
-            .navbar a {
-            float: none;
-            width: 100%;
-             }
-        }
         .header{
-            padding-top:10%;
-            padding-left: 10%;
+            
+            
             padding-bottom:0px;
-            text-align:left;
+            text-align:center;
             color: white;
             animation-name: example;
             animation-duration: 5s;
@@ -36,52 +33,101 @@
             font-family: Young Serif;
             
         }
-            
-        
-        .pic{
-            width: 20%;
-            height: auto;
+        .fav{
+            font-size: 25pt;
+            text-align:center;
+            font-family: 'Lucida Sans';
+            color:#09fbd3;
+            text-decoration: none;
+            background:
+                linear-gradient(
+                    to left,
+                    black,
+                    black
+                ),
+                linear-gradient(
+                    to right,
+                    rgba(255, 0, 0, 1),
+                    rgba(255, 0, 180, 1),
+                    rgba(0, 100, 200, 1)
+            );
+            background-size: 100% 3px, 0 3px;
+            background-position: 100% 100%, 0 100%;
+            background-repeat: no-repeat;
+            transition: background-size 400ms;
         }
+        .fav:hover{
+            background-size: 0 3px, 100% 3px;
+        }
+        
+        
         .navbar{
             overflow: hidden;
+            font-family:Segoe UI;
+            font-weight: bold;
+            padding-right: 5%;
+            
             /*background-color: rgb(43, 121, 103);*/
         }
         .navbar a{
+            box-shadow: inset 0 0 0 0 #ffed00;
             float:right;
+            color: pink;
             display: block;
-            color:white;
             text-align: center;
-            padding: 25px 30px;
+            margin: 0 -.25rem;
+            padding: 25px;
             text-decoration: none;
+            font-family: 'Segoe UI';
+            transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
         }
         .navbar a:hover{
-            background-color: chartreuse;
+            background-color: #93E9BE;
             color: black;
+            border-radius: 25px;
+            box-shadow: inset 100px 0 0 0 #54b3d6;
+            color: white;
+            
+ 
+            
         }
         .footer a{
             color:olivedrab; 
             text-decoration: none;
         }
-        .footer p{
+        .footer {
             color:darkorange;
             text-align: center;
-            object-position: bottom;
+            position: absolute;
+            bottom:0;
+            width:100%;
+            padding: 15px 0;
+            font-family: 'Segoe UI';
+            font-weight: bold;
+        }
+        .header:hover{
+            text-decoration: line-through wavy pink 3px;
+            
         }
         .footer p:hover{
             text-decoration: line-through wavy pink 1px;
             
+            
         }
         .pic{
             height: auto;
-            width: 300px;
+            width: 250px;
             position:absolute;
-            left: 900px;
-            top: 200px
+            left: 50px;
+            top: 50px
         }
         .desc{
-            color:white;
-            padding-left: 10%;
+            color: #93E9BE;
+            text-align:center;
+            font-family:'Segoe UI';
+            font-weight:normal;
         }
+        
     </style>
 </head>
 <body>
@@ -91,14 +137,18 @@
     </div> -->
     
     <div class = "navbar">
+        <p class = "fav">yashkc2025</p>
         <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#Contact">Contact Me</a>
     </div>
     <p class = "header">Hey,👋 It's Yash.</p>
-    <p class ="desc">I am a First year student at IIT Madras</p>
-    <img class="pic" src="https://raw.githubusercontent.com/yashkc2025/yashkc2025.github.io/main/pic.png"></img>
+    <div class ="desc">STUDENT 🧑‍🎓 + DEVELOPER 🧑‍💻</div>
     
+    <div class ="desc">I am a First Year Student at IIT Madras currently pursuing BS Data Science <br>Diploma Electronics Engineering from DBIT Dehradun</div>
+    <img class="pic" src="https://raw.githubusercontent.com/yashkc2025/yashkc2025.github.io/main/pic.png"></img>
     <div class="footer">
+        <a href="https://github.com/yashkc2025" class="github"></a>
+        <a href="https://www.linkedin.com/in/yashkc2025/" class=""linkedin></a>
         <p>Made with 💗 by <a href="https://github.com/yashkc2025">Yash</a></p>
     </div>
 </body>
