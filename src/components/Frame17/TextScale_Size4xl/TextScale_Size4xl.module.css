@@ -1,0 +1,14 @@
+.root {
+  flex-direction: column;
+  padding: 0 0 0 10px;
+}
+._1 {
+  color: #fff;
+  font-size: 92.5899px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-align: center;
+  justify-content: center;
+  white-space: nowrap;
+}

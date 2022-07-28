@@ -1,0 +1,24 @@
+.textScale.textScale {
+  align-self: flex-start;
+}
+._6 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-align: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.root {
+  position: absolute;
+  left: -99.7037%;
+  right: 175.2592%;
+  top: -12.9921%;
+  bottom: 38.9763%;
+  flex-direction: column;
+  padding: 10px 20px 10px 10px;
+  border-radius: 5px;
+  background-color: #fe6b00;
+}
