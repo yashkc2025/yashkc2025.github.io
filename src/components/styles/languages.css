@@ -1,0 +1,27 @@
+.javascript,
+.python {
+  color: #ffe873;
+}
+
+.css {
+  color: white;
+}
+
+.java,
+.html {
+  color: tomato;
+}
+
+.dart,
+.arduino {
+  color: #29fdec;
+}
+
+.flutter,
+.reactjs {
+  color: #5bffff;
+}
+
+.arduino {
+  color: #00b5bb;
+}

@@ -1,0 +1,43 @@
+@import "./languages.css";
+
+.tool-combo {
+  border-radius: 40px;
+  display: flex;
+  flex-grow: 2;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 500px;
+  backdrop-filter: blur(20px);
+}
+
+.tool-drop {
+  border-radius: 40px;
+  width: 500px;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/422/975/664/photography-nature-landscape-mountains-wallpaper-preview.jpg");
+  /* filter:grayscale(100%); */
+  background-color: red;
+  text-align: center;
+}
+
+.tool {
+  flex-basis: 15%;
+  padding: 1rem;
+}
+
+.tool > img {
+  height: 60px;
+  margin-bottom: 0;
+}
+
+.tool > h3 {
+  margin-top: 0;
+  -webkit-text-stroke: 0.2px #000;
+}
+
+.tool-combo:hover > div {
+  filter: blur(3px) grayscale(100%) brightness(120%);
+}
+
+.tool-combo:hover > div:hover {
+  filter: blur(0px) brightness(120%);
+}

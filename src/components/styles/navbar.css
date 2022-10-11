@@ -1,0 +1,39 @@
+
+.navbar-drop {
+    background-image: url("https://petapixel.com/assets/uploads/2021/06/5tipslandscapeblackandwhite.jpg");
+    margin: 10px 40px;
+    border-radius: 10px;
+  
+  }
+  .navbar {
+    border-radius: 10px;
+    border-color: rgb(190, 179, 179);
+    border-style: solid;
+    border-width: 0.5px;
+    height: 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    padding: 0 30px;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+  }
+  
+  .navbar > div > h1 {
+    /* background: -webkit-linear-gradient(rgb(196, 34, 185), rgb(255, 57, 57)); */
+    background: -webkit-linear-gradient(rgb(255, 106, 245), rgb(255, 57, 57));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Leckerli One";
+    font-weight: 400;
+    /* margin-left: -180px; */
+  }
+  
+  .navbar > div > a,.navbar > a {
+    margin-left: 20px;
+    margin-right: 50px;
+    font-family: 'Inter Tight';
+    color: white;
+    text-decoration: none;
+  }
+  
