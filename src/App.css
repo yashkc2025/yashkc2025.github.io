@@ -8,6 +8,13 @@
   flex-flow: row wrap;
   justify-content:center;
   width:500px;
+  backdrop-filter: blur(20px) ;
+}
+.tool-drop{
+  width:500px;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/422/975/664/photography-nature-landscape-mountains-wallpaper-preview.jpg");
+  /* filter:grayscale(100%); */
+  background-color: red;
 }
 
 .tool{
@@ -23,16 +30,38 @@
 
 .tool >h3{
   margin-top:0;
+  -webkit-text-stroke: 0.2px #000;
 }
 
 .tool-combo:hover >div{
-  filter:blur(5px);
-  filter: grayscale(100%);
+  filter: blur(3px) grayscale(100%) brightness(120%);;
 }
 
 .tool-combo:hover >div:hover{
-  filter:blur(5px);
+  filter:blur(0px) brightness(120%);
   
 }
 
+.javascript, .python{
+  color:#ffe873;
+}
 
+.css{
+  color : white;
+}
+
+.java, .html{
+  color: tomato;
+}
+
+.dart, .arduino{
+  color: #29fdec;
+}
+
+.flutter, .react{
+  color: #5bffff;
+}
+
+.arduino{
+  color: #00b5bb;
+}

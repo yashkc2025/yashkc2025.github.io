@@ -1,8 +1,8 @@
 export default function Toolkit(props){
     return(
         <div className="tool">
-            <img src={props.logo} className={props.name}/>
-            <h3>{props.name}</h3>
+            <img src={props.logo}/>
+            <h3 className={props.name.toLowerCase()}>{props.name}</h3>
         </div>
     )
 }

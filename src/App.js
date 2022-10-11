@@ -7,8 +7,10 @@ function App() {
 
   return (
     <div className="App">
-      <div className='tool-combo'>
-        {tool}
+      <div className='tool-drop'>
+        <div className='tool-combo'>
+          {tool}
+        </div>
       </div>
     </div>
   );
