@@ -2,15 +2,16 @@
   text-align: center;
 }
 
-body{
-  /* background-color: green; */
-}
 .tool-combo{
   display:flex;
-
+  flex-grow: 2;
+  flex-flow: row wrap;
+  justify-content:center;
+  width:500px;
 }
 
 .tool{
+  flex-basis: 15%;
   padding:1rem;
 }
 
@@ -23,32 +24,15 @@ body{
 .tool >h3{
   margin-top:0;
 }
-/* 
-.JavaScript{
-  border-radius:1px;
-  border-style: solid;
-}
-
-.JavaScript:hover{
-  color:white;
-  background-color: yellow;
-}
-
-.Java:hover{
-  background-color: orange;
-}
-
-.HTML:hover{
-  background-color: red;
-  filter: blur(5px);
-} */
 
 .tool-combo:hover >div{
   filter:blur(5px);
+  filter: grayscale(100%);
 }
 
 .tool-combo:hover >div:hover{
-  filter:blur(0px);
+  filter:blur(5px);
+  
 }
 
 

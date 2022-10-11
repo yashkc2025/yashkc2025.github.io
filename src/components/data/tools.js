@@ -1,23 +1,38 @@
 export default[
     {
         name: "JavaScript",
-        logo: "https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-24.png",
-        // logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/768px-Unofficial_JavaScript_logo_2.svg.png?20141107110902",
+        logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
     },
     {
         name: "HTML",
-        logo: "../../../public/images/html.png"
+        logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
     },
     {
         name: "CSS",
-        logo: "https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-file-html-css-styling-svg-wikimedia-commons-16.png"
+        logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
     },
     {
         name: "Python",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/archive/c/c3/20220821155028%21Python-logo-notext.svg"
+        logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
     },
     {
         name: "Java",
-        logo: "https://cdn-icons-png.flaticon.com/512/152/152760.png"
-    }
+        logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+    },
+    {
+        name: "Dart",
+        logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg"
+    },
+    {
+        name: "Flutter",
+        logo : "https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg"
+    },
+    {
+        name: "React",
+        logo : "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+    },
+    {
+        name: "Arduino",
+        logo : "https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg"
+    },
 ]
