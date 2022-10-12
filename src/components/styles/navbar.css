@@ -21,10 +21,12 @@
 }
 
 .navbar  h1 {
-  background: -webkit-linear-gradient(rgb(255, 214, 80), rgb(255, 251, 6));
+  background: linear-gradient(rgb(255, 214, 80), rgb(255, 251, 6));
   /* background: -webkit-linear-gradient(rgb(255, 106, 245), rgb(255, 57, 57)); */
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  
   font-family: "Leckerli One";
   font-weight: 400;
   /* margin-left: -180px; */

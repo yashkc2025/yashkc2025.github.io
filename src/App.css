@@ -3,6 +3,12 @@
 @import "./components/styles/quotes.css";
 @import "./components/styles/hero.css";
 
+.mobile-only {
+
+  display: none;
+  /* text-align: center; */
+  color:white;
+}
 body {
   background-color: #141617;
   padding: 2rem;

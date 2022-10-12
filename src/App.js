@@ -7,11 +7,13 @@ import Hero from './components/Hero';
 function App() {
 
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-
-      <Quotes />
+    <div>
+      <h1 className='mobile-only'>Mobile Version is under construction. Please use desktop version!</h1>
+      <div className="App">
+        <Navbar />
+        <Hero />
+        <Quotes />
+      </div>
     </div>
   );
 }
