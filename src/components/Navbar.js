@@ -3,8 +3,8 @@ export default function Navbar() {
         <div className="navbar-drop">
             <div className="navbar">
                 <div>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
+                    {/* <a href="#">Home</a> */}
+                    <a href="#lang">About</a>
                     <a href="#">Projects</a>
                 </div>
                 <div>
@@ -12,6 +12,7 @@ export default function Navbar() {
                     <h3>⤎/»</h3>
                 </div>
                 <div>
+                    <a href="#">Resume</a>
                     <a href="#">Contact</a>
                 </div>
             </div>

@@ -1,0 +1,70 @@
+.hero-text-d{
+    color:chartreuse;
+    font-size: calc(1.5rem * 5);
+    font-family:'Comforter Brush';
+    font-weight:bolder;
+}
+
+.hero-text-h1{
+    display:inline-block;
+    font-size: 400%;
+    color:gold;
+    font-family:'Domine';
+    font-weight:900px;
+}
+.hero-text-alt{
+    display:none;
+    font-size: 400%;
+    /* color:rgb(234, 54, 234); */
+    /* color: #ff2079; */
+    color:hotpink;
+    font-family:'Baloo 2';
+    font-weight:700px;
+}
+
+.hero-box{
+    /* position:absolute; */
+    /* background-color: aqua; */
+    margin-top: 20vh;
+    /* margin-left: 2rem; */
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 100px;
+    display:block;
+
+    text-align: center;
+    /* height:80vh; */
+    /* background-color:white; */
+}
+
+.hero-sub{
+    margin-top:0;
+    color:white;
+    /* font-family:'Domine'; */
+    font-family: "Inter Tight";
+    /* margin-left:5rem; */
+}
+
+.doubleUnderline {
+    text-decoration-line:underline;
+    text-decoration-style:wavy;
+    text-decoration-color: chartreuse;
+}
+
+.hero-box:hover .hero-text-d{
+    color:#09fbd3;
+}
+.hero-box:hover .hero-text-h1{
+    display: none;
+}
+
+.hero-box:hover .hero-sub{
+    text-decoration-line:line-through;
+    text-decoration-style:wavy;
+    text-decoration-color:rgb(204, 255, 0);
+
+}
+.hero-box:hover .hero-text-alt{
+    display: inline-block;
+}
+

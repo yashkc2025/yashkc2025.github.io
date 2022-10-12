@@ -33,18 +33,79 @@
         transform: translateX(0);
     }
 }
+
+@-webkit-keyframes bounce {
+    0%,  
+    100% {
+       -webkit-transform: translateY(0);
+    } 
+    50% {
+        -webkit-transform: translateY(-20px);
+    }
+}
+@-moz-keyframes bounce {
+    0%, 
+    100% {
+       -moz-transform: translateY(0);
+    }
+    50% {
+       -moz-transform: translateY(-20px);
+    }
+}
+@-o-keyframes bounce {
+    0%,
+    100% {
+       -o-transform: translateY(0);
+    }
+    50% {
+       -o-transform: translateY(-20px);
+    }
+}
+@keyframes bounce {
+    0%,  
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.quotes-block{
+    color:hotpink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family:'Yeseva One';
+    font-size: 200%;
+    /* background-color: red; */
+}
+
+.right-quote-text{
+    animation: bounce 2.5s infinite;
+    -webkit-animation: bounce 2.5s infinite;
+    -moz-animation: bounce 2.5s infinite; 
+    -o-animation: bounce 2.5s infinite; 
+}
+
+.right-quote-text:hover{
+    animation: bounce 2.5s reverse infinite;
+    -webkit-animation: bounce 2.5s reverse infinite;
+    -moz-animation: bounce 2.5s reverse infinite; 
+    -o-animation: bounce 2.5s reverse infinite; 
+}
 .quotes-slide {
-  position: fixed;
-  top:50%;
-  left:25px;
   min-width: 400px;
-  max-width:33vw;
+  max-width:37vw;
   display: flex;
   overflow: hidden;
   flex-direction: column;
   padding:10px;
   /* background-color: #000; */
-  /* box-shadow: -20px -15px 90px -30px #b400ff; */
+
   border-radius: 20px;
 }
 
@@ -56,7 +117,7 @@
 .first-q, .third-q{
     color:#fff;
     white-space: nowrap;
-    font-size: 200%;
+    font-size: 150%;
     animation: quotes-scroll 15s linear infinite;
     font-family: 'Yeseva One';
     margin-top:1rem;
@@ -66,7 +127,7 @@
 .second-q, .fourth-q{
     color:#fff;
     white-space: nowrap;
-    font-size: 200%;
+    font-size: 150%;
     font-family: 'Abril Fatface', cursive;
     animation: quotes-scroll-rev 20s linear reverse infinite;
     margin-top:1rem;

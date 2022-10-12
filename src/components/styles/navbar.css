@@ -1,16 +1,19 @@
 .navbar-drop {
-  background-image: url("https://petapixel.com/assets/uploads/2021/06/5tipslandscapeblackandwhite.jpg");
-  margin: 2rem 2rem;
+  /* background-image: url("https://petapixel.com/assets/uploads/2021/06/5tipslandscapeblackandwhite.jpg"); */
+  margin: 0 2rem;
   border-radius: 10px;
+
+  overflow: hidden;
+
 }
 .navbar {
   border-radius: 0.625rem;
   border-color: rgb(190, 179, 179);
-  /* border-style: solid; */
+
   border-width: 0.1125rem;
-  height: 3.125rem;
+  height: 4.5rem;
   display: flex;
-  /* flex-wrap: wrap; */
+  /* margin-top:1rem; */
   align-items: center;
   padding: 0 2rem;
   justify-content: space-between;
@@ -39,7 +42,7 @@
   display: none;
 }
 
-.navbar:hover h3{
+.navbar:hover h3, .navbar:active h3{
   display: inline
 }
 .navbar > div > a,
@@ -51,11 +54,11 @@
   text-decoration: none;
 }
 
-.navbar:hover{
+.navbar:hover, .navbar:active{
   border-style:dotted;
   
 }
-.navbar a:hover{
+.navbar a:hover, .navbar a:active{
   text-decoration: underline;
   text-decoration-style: wavy;
   text-decoration-line:  underline;

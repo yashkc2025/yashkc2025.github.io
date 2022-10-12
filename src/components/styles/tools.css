@@ -3,28 +3,28 @@
 .tool-combo {
   border-radius: 2.5rem;
   display: flex;
-  flex-grow: 2;
+  /* flex-grow: 2; */
   flex-flow: row wrap;
   justify-content: center;
   width: 100%;
   min-width: 400px;
-  backdrop-filter: blur(30px);
+  /* min-height:350px; */
+  backdrop-filter: blur(20px);
+  /* max-width:1800px; */
 }
 
 .tool-drop {
   min-width: 400px;
   border-radius: 40px;
-  width: 40%;
-  background-image: url("https://rare-gallery.com/thumbnail/420482-RETOKA-pattern-abstract-lines-diagonal-lines-colorful.jpg");
-  background-color: red;
+  /* background-image: radial-gradient(black, rgb(31, 29, 29), rgb(40, 36, 36)); */
+  margin: auto;
   text-align: center;
-  position:fixed;
-  /* right:45px; */
-  right:25px;
+  margin-top: 200px;
+  /* max-width:1800px; */
 }
 
 .tool {
-  /* flex-basis: 15%; */
+  flex-basis: 15%;
   padding: 1rem;
 }
 
@@ -35,13 +35,19 @@
 
 .tool > h3 {
   margin-top: 0;
-  -webkit-text-stroke: 0.2px #000;
+  /* -webkit-text-stroke: 0.2px #000; */
 }
 
-.tool-combo:hover > div {
+.tool-drop:hover, .tool-drop:active {
+  background-image: none;
+  border-style:dotted;
+  border-width: 3px;
+  border-color:chartreuse chartreuse yellow yellow;
+}
+.tool-combo:hover > div, .tool-combo:active > div {
   filter: blur(3px) grayscale(100%) brightness(120%);
 }
 
-.tool-combo:hover > div:hover {
+.tool-combo:hover > div:hover, .tool-combo:active > div:hover {
   filter: blur(0px) brightness(120%);
 }

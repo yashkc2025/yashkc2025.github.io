@@ -1,8 +1,16 @@
 @import "./components/styles/navbar.css";
 @import "./components/styles/tools.css";
 @import "./components/styles/quotes.css";
-
+@import "./components/styles/hero.css";
 
 body {
-  background-color: #101010;
+  background-color: #141617;
+  padding: 2rem;
 }
+
+/* .App {
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(50px);
+
+} */
