@@ -1,26 +1,30 @@
 @import "./languages.css";
 
 .tool-combo {
-  border-radius: 40px;
+  border-radius: 2.5rem;
   display: flex;
   flex-grow: 2;
   flex-flow: row wrap;
   justify-content: center;
-  width: 500px;
-  backdrop-filter: blur(20px);
+  width: 100%;
+  min-width: 400px;
+  backdrop-filter: blur(30px);
 }
 
 .tool-drop {
+  min-width: 400px;
   border-radius: 40px;
-  width: 500px;
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/422/975/664/photography-nature-landscape-mountains-wallpaper-preview.jpg");
-  /* filter:grayscale(100%); */
+  width: 40%;
+  background-image: url("https://rare-gallery.com/thumbnail/420482-RETOKA-pattern-abstract-lines-diagonal-lines-colorful.jpg");
   background-color: red;
   text-align: center;
+  position:fixed;
+  /* right:45px; */
+  right:25px;
 }
 
 .tool {
-  flex-basis: 15%;
+  /* flex-basis: 15%; */
   padding: 1rem;
 }
 

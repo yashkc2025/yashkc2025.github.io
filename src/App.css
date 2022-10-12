@@ -1,5 +1,7 @@
 @import "./components/styles/navbar.css";
 @import "./components/styles/tools.css";
+@import "./components/styles/quotes.css";
+
 
 body {
   background-color: #101010;

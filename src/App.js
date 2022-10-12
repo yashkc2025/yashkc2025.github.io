@@ -3,6 +3,7 @@ import './App.css';
 import Toolkit from './components/Toolkit';
 import tools from './components/data/tools';
 import Navbar from './components/Navbar';
+import Quotes from './components/Quotes';
 
 function App() {
   const tool = tools.map(item => <Toolkit {...item} />)
@@ -15,6 +16,8 @@ function App() {
           {tool}
         </div>
       </div>
+      
+      <Quotes/>
     </div>
   );
 }
