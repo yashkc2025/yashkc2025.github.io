@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Quotes from './components/Quotes';
 import Hero from './components/Hero';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <Hero />
         <Quotes />
+        <Contact/>
       </div>
     </div>
   );
