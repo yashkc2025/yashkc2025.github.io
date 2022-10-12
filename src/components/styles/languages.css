@@ -25,3 +25,20 @@
 .arduino {
   color: #00b5bb;
 }
+
+.fa-linkedin{
+  color:#0e76a8;
+}
+
+.fa-github-alt, .fa-angellist{
+  color:white
+}
+
+.fa-telegram{
+  color:#0088cc;
+  
+}
+
+.fa-envelope{
+  color:yellow;
+}

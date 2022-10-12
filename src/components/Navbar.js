@@ -13,7 +13,7 @@ export default function Navbar() {
                 </div>
                 <div>
                     <a href="#">Resume</a>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Say Hi  !</a>
                 </div>
             </div>
         </div>

@@ -1,0 +1,40 @@
+.contact{
+    margin-top:200px;
+    display: block;
+    text-align: center;;
+    /* background-color: aliceblue; */
+    align-items: center;
+}
+
+.contact a{
+    /* color: white; */
+    padding:1rem;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.contact a:hover{
+    font-size: 300%;
+}
+
+.contact-form{
+    display: inline;
+    margin-left:2rem;
+}
+
+.contact-form button{
+    /* font-size: calc(xx-large - 2rem); */
+    background-color: chartreuse;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.contact-form a{
+    font-size:x-large;
+    font-family: "Inter Tight";
+    color: black;
+}
+
+.social{
+    display: inline-block;
+}
