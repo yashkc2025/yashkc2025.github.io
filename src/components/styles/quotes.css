@@ -1,78 +1,83 @@
 @import "./quote-key.css";
 
-.quotes-block{
-    color:hotpink;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 200px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family:'Yeseva One';
-    font-size: 200%;
-    /* background-color: red; */
+.quotes-block {
+  color: hotpink;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Yeseva One";
+  font-size: 200%;
+  /* flex-direction: column-reverse; */
 }
 
-.right-quote-text{
-    animation: bounce 2.5s infinite;
-    -webkit-animation: bounce 2.5s infinite;
-    -moz-animation: bounce 2.5s infinite; 
-    -o-animation: bounce 2.5s infinite; 
+.right-quote-text {
+  padding-left: 5rem;
+  animation: bounce 2.5s infinite;
+  -webkit-animation: bounce 2.5s infinite;
+  -moz-animation: bounce 2.5s infinite;
+  -o-animation: bounce 2.5s infinite;
 }
 
-.right-quote-text:hover{
-    animation: bounce 2.5s reverse infinite;
-    -webkit-animation: bounce 2.5s reverse infinite;
-    -moz-animation: bounce 2.5s reverse infinite; 
-    -o-animation: bounce 2.5s reverse infinite; 
+.right-quote-text:hover {
+  animation: bounce 2.5s reverse infinite;
+  -webkit-animation: bounce 2.5s reverse infinite;
+  -moz-animation: bounce 2.5s reverse infinite;
+  -o-animation: bounce 2.5s reverse infinite;
 }
 .quotes-slide {
   min-width: 400px;
-  max-width:37vw;
+  max-width: 37vw;
   display: flex;
   overflow: hidden;
   flex-direction: column;
-  padding:10px;
+  padding: 10px;
   /* background-color: #000; */
 
   border-radius: 20px;
 }
 
 .quotes-slide > div {
-    width:100%;
-    overflow:hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
-.first-q, .third-q{
-    color:#fff;
-    white-space: nowrap;
-    font-size: 150%;
-    animation: quotes-scroll 15s linear infinite;
-    font-family: 'Yeseva One';
-    margin-top:1rem;
-    margin-bottom:1rem;
+.first-q,
+.third-q {
+  color: #fff;
+  white-space: nowrap;
+  font-size: 150%;
+  animation: quotes-scroll 15s linear infinite;
+  font-family: "Yeseva One";
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.second-q, .fourth-q{
-    color:#fff;
-    white-space: nowrap;
-    font-size: 150%;
-    font-family: 'Abril Fatface', cursive;
-    animation: quotes-scroll-rev 20s linear reverse infinite;
-    margin-top:1rem;
-    margin-bottom:1rem;
+.second-q,
+.fourth-q {
+  color: #fff;
+  white-space: nowrap;
+  font-size: 150%;
+  font-family: "Abril Fatface", cursive;
+  animation: quotes-scroll-rev 20s linear reverse infinite;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-
-.first-q:hover, .second-q:hover,.third-q:hover{
-    animation-play-state:paused;
-    color:chartreuse;
+.first-q:hover,
+.second-q:hover,
+.third-q:hover {
+  animation-play-state: paused;
+  color: chartreuse;
 }
 
-.quotes-slide:hover >div{
-    background-color: #222222;
-    filter: blur(5px);
+.quotes-slide:hover > div {
+  background-color: #222222;
+  filter: blur(5px);
 }
 .quotes-slide:hover > div:hover {
-    filter: blur(0px) brightness(120%);
-  }
+  filter: blur(0px) brightness(120%);
+}
+

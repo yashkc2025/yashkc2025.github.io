@@ -7,14 +7,14 @@
   flex-flow: row wrap;
   justify-content: center;
   width: 100%;
-  min-width: 400px;
+  min-width: 370px;
   /* min-height:350px; */
   backdrop-filter: blur(20px);
   /* max-width:1800px; */
 }
 
 .tool-drop {
-  min-width: 400px;
+  min-width: 370px;
   border-radius: 40px;
   /* background-image: radial-gradient(black, rgb(31, 29, 29), rgb(40, 36, 36)); */
   margin: auto;
