@@ -42,5 +42,9 @@ export default[
     {
         name: "Bulma",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bulma/bulma-plain.svg"
+    },
+    {
+        name: "Figma",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
     }
 ]

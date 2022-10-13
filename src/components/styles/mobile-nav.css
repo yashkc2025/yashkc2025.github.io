@@ -1,7 +1,8 @@
 .mobile-nav-bar {
+  position: fixed;
+  margin-bottom: -10px;
+  margin-top: -30px;
   display: none;
-  margin-bottom:-10px;
-  
 }
 
 #menuToggle {
@@ -53,7 +54,7 @@
   transform-origin: 4px 0px;
 
   /* transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), */
-    /* background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease; */
+  /* background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease; */
 }
 
 #menuToggle span:first-child {
@@ -69,11 +70,10 @@
  * into a crossmark.
  */
 #menuToggle input:checked ~ span {
-    
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: chartreuse;
-  width:55px
+  width: 55px;
 }
 
 /*
@@ -103,18 +103,17 @@
   padding-top: 125px;
 
   /* background: #ededed; */
-  list-style-type:none;
+  list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
 
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
-    text-align: center;
+  text-align: center;
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 #menu li {
-
   padding: 10px 0px;
   font-size: 22px;
   color: #00ffd5;
@@ -131,13 +130,13 @@
 }
 
 #menu li:hover {
-    text-decoration: underline;
-    text-decoration-style: wavy;
-    text-decoration-line:  underline;
-    text-decoration-thickness: 1.5px;
-    text-decoration-color: chartreuse;
-    filter: brightness(200%);
-    font-size:150%;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: chartreuse;
+  filter: brightness(200%);
+  font-size: 150%;
 }
 
 /* .mobile-nav-base{
