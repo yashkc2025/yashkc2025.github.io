@@ -3,6 +3,9 @@
 @import "./components/styles/quotes.css";
 @import "./components/styles/hero.css";
 @import "./components/styles/contact.css";
+@import "./components/styles/about.css";
+
+@import "./components/styles/media-queries.css";
 
 .mobile-only {
   display: none;
@@ -13,53 +16,9 @@ body {
   background-color: #141617;
   padding: 2rem;
 }
-
-@media only screen and (max-width: 750px) {
-  .right,
-  .right-quote-text {
-    display: none;
-  }
-
-  /* body{
-    background-color: white;
-  } */
-}
-@media only screen and (max-width: 870px) {
-  .hiding {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 680px) {
-  .tool-drop {
-    /* background-color: aliceblue; */
-    margin-top: 100px;
-  }
-  .tool {
-    /* flex-basis: 25%; */
-    padding: 0.5rem;
-  }
-
-  body {
-    padding: 0;
-  }
-  .hero-box {
-    margin-top: 50px;
-  }
-  .tool-drop:hover,
-  .tool-drop:active {
-    border-style: none;
-  }
-  .quotes-block{
-    margin-top:100px;
-  }
-  .contact{
-    margin-top:100px;
-  }
-}
-
-@media only screen and (max-width:620px) {
-  .about {
-    display: none;
-  }
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  color: violet;
+  font-family: "Inter Tight";
 }
