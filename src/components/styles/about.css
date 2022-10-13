@@ -1,0 +1,82 @@
+.about-section{
+    margin-top: 200px;
+    /* text-align: center; */
+
+    padding-left:5rem;
+}
+
+.about-head{
+    font-family:'Inter Tight';
+    color: yellow;
+    text-decoration-line:underline;
+    text-decoration-style:wavy;
+    text-decoration-color: #00fbd6;
+    text-decoration-thickness: 2px;
+    font-size: 200%;
+    display: inline-block;
+}
+
+.about-head-alt{
+    font-family:'Baloo 2';
+    display:none;
+    color:chartreuse;
+}
+
+.about-sub{
+    margin-top: 100px;
+    padding: 0 25vw;
+    /* background-color:#00fbd6 */
+    
+}
+.about-sub-text{
+    text-align: center;
+    color:white;
+    font-size: 150%;
+    line-height: 40px;
+    font-family:'Inter Tight';
+}
+
+.about-lang{
+    color: chartreuse;
+    text-decoration-line:underline;
+    text-decoration-style:wavy;
+    text-decoration-color: hotpink;
+    text-decoration-thickness: 1.5px;
+}
+
+.about-role{
+    color:yellow;
+    text-decoration-line:underline;
+    text-decoration-style:wavy;
+    text-decoration-color: chartreuse;
+    text-decoration-thickness: 1.5px;
+}
+
+/* .about-sub:hover {
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: black;
+    text-decoration-thickness: 2.3px;
+} */
+/* .about-role:hover, .about-role:active, .about-lang:hover, .about-lang:active{
+    text-decoration-style:wavy;
+    text-decoration-line: overline;
+    font-size: 150%;
+    color:tomato;
+} */
+
+.about-section:hover .about-role, .about-section:hover .about-lang{
+    text-decoration:wavy;
+    text-decoration-line: overline;
+    font-size: 120%;
+    text-decoration-color: yellow;
+    font-family:'Domine';
+    color:hotpink;
+}
+.about-section:hover .about-head{
+    display: none;
+}
+
+.about-section:hover .about-head-alt{
+    display: inline-block;
+}

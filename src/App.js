@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Quotes from './components/Quotes';
 import Hero from './components/Hero';
 import Contact from './components/Contact';
+import About from './components/About';
 
 function App() {
 
@@ -13,8 +14,10 @@ function App() {
       <div className="App">
         <Navbar />
         <Hero />
+        <About/>
         <Quotes />
         <Contact/>
+        <h3 className='footer'>«/» by Yash</h3>
       </div>
     </div>
   );

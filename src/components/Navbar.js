@@ -4,7 +4,7 @@ export default function Navbar() {
             <div className="navbar">
                 <div>
                     {/* <a href="#">Home</a> */}
-                    <a className="about" thref="#lang">About</a>
+                    <a className="about" href="#about">About</a>
                     <a href="#">Projects</a>
                 </div>
                 <div className="hiding">

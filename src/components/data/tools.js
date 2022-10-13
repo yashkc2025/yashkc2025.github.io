@@ -35,4 +35,12 @@ export default[
         name: "Dart",
         logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg"
     },
+    {
+        name: "Git",
+        logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+    },
+    {
+        name: "Bulma CSS",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bulma/bulma-plain.svg"
+    }
 ]

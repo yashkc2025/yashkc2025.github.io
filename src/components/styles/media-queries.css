@@ -1,0 +1,64 @@
+@media only screen and (max-width: 750px) {
+  .right,
+  .right-quote-text {
+    display: none;
+  }
+
+  /* body{
+      background-color: white;
+    } */
+}
+@media only screen and (max-width: 870px) {
+  .hiding {
+    display: none;
+  }
+  .about-sub {
+    padding: 0px;
+  }
+
+  .about-section {
+    /* padding-left:0px; */
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .tool-drop {
+    /* background-color: aliceblue; */
+    margin-top: 100px;
+  }
+  .tool {
+    /* flex-basis: 25%; */
+    padding: 0.5rem;
+  }
+
+  body {
+    padding: 0;
+  }
+  .hero-box {
+    margin-top: 50px;
+  }
+  .tool-drop:hover,
+  .tool-drop:active {
+    border-style: none;
+  }
+  .quotes-block {
+    margin-top: 100px;
+  }
+  .contact {
+    margin-top: 100px;
+  }
+  .about-section,
+  .about-sub {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .about {
+    display: none;
+  }
+  .about-sub-text {
+    text-align: end;
+  }
+}
