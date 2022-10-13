@@ -18,7 +18,7 @@
 
   .about-section {
     /* padding-left:0px; */
-    padding: 0 20px;
+    padding: 0 0 0 20px;
   }
 }
 
@@ -55,8 +55,12 @@
 }
 
 @media only screen and (max-width: 620px) {
-  .about {
+  .navbar-drop {
     display: none;
+  }
+
+  .mobile-nav-bar{
+    display:block;
   }
   .about-sub-text {
     text-align: end;

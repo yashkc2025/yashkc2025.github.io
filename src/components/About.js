@@ -6,7 +6,7 @@ export default function About() {
             <div className="about-sub">
                 <h3 className="about-sub-text">Hello, I am a 17 year old passionate Frontend and Software developer from India 🇮🇳 .
                     With working knowledge of <span className="about-lang">HTML, CSS and Javascript</span>, I build responsive websites that work on
-                    small as well as large screens. My interests include <span className="about-role">Software development and Data Science.</span> 
+                    small as well as large screens. My interests also includes <span className="about-role">Software development and Data Science.</span> 
                 </h3>
             </div>
         </div>

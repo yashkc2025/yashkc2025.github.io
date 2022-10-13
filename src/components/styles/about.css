@@ -65,7 +65,7 @@
     color:tomato;
 } */
 
-.about-section:hover .about-role, .about-section:hover .about-lang{
+.about-sub-text:hover .about-role, .about-sub-text:hover .about-lang{
     text-decoration:wavy;
     text-decoration-line: overline;
     font-size: 120%;

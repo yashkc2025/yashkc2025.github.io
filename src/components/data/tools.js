@@ -40,7 +40,7 @@ export default[
         logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
     },
     {
-        name: "Bulma CSS",
+        name: "Bulma",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bulma/bulma-plain.svg"
     }
 ]

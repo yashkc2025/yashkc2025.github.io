@@ -4,6 +4,7 @@
 @import "./components/styles/hero.css";
 @import "./components/styles/contact.css";
 @import "./components/styles/about.css";
+@import "./components/styles/mobile-nav.css";
 
 @import "./components/styles/media-queries.css";
 
