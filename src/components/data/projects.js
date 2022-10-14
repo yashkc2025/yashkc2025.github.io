@@ -14,7 +14,8 @@ export default [
     {
         name: "Meme Generator",
         logo: "https://repository-images.githubusercontent.com/549565410/6d4223cc-f6c5-4df5-bfc0-362df8cb146b",
-        desc: "A meme generator that let's you design your own memes. Just enter text and click generate meme."
+        desc: "A meme generator that let's you design your own memes. Just enter text and click generate meme.",
+        link: "https://github.com/yashkc2025/meme-gen"
     },
     {
         name: "BMI-app",
