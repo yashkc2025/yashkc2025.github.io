@@ -22,7 +22,7 @@
   /* background-image: radial-gradient(black, rgb(31, 29, 29), rgb(40, 36, 36)); */
   margin: auto;
   text-align: center;
-  margin-top: 200px;
+  margin : 100px 0;
   font-family: 'Inter Tight';
   /* max-width:1800px; */
 }

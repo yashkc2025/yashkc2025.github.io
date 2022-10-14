@@ -1,19 +1,22 @@
 .about-section{
-    margin-top: 200px;
-    /* text-align: center; */
+    margin: 100px 0;
+    text-align: center;
 
     padding-left:5rem;
 }
 
 .about-head{
-    font-family:'Inter Tight';
+    font-family: 'DM Serif Display', serif;
+
     color: yellow;
-    text-decoration-line:underline;
+    text-decoration-line:overline;
     text-decoration-style:wavy;
     text-decoration-color: #00fbd6;
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: 1.5px;
     font-size: 200%;
     display: inline-block;
+    padding-left:0;
+
 }
 
 .about-head-alt{
@@ -23,7 +26,7 @@
 }
 
 .about-sub{
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 0 25vw;
     /* background-color:#00fbd6 */
     
@@ -73,10 +76,10 @@
     font-family:'Domine';
     color:hotpink;
 }
-.about-section:hover .about-head{
+/* .about-section:hover .about-head{
     display: none;
 }
 
 .about-section:hover .about-head-alt{
     display: inline-block;
-}
+} */

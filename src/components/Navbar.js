@@ -5,7 +5,7 @@ export default function Navbar() {
                 <div>
                     {/* <a href="#">Home</a> */}
                     <a className="about" href="#about">About</a>
-                    <a href="#">Projects</a>
+                    <a href="#projects">Projects</a>
                 </div>
                 <div className="hiding">
                     <h1>yashkc2025</h1>
