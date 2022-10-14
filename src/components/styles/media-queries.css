@@ -59,10 +59,38 @@
     display: none;
   }
 
-  .mobile-nav-bar{
-    display:block;
+  .mobile-nav-bar {
+    display: block;
   }
   .about-sub-text {
     text-align: end;
   }
+  .tool-drop,
+  .tool-combo {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .mobile-nav-bar{
+    margin-left:20px;
+  }
+  .tool-drop,
+  .tool-combo {
+    /* margin-left: -20px; */
+    min-width: 100px;
+  }
+  .quotes-block{
+    margin-left:0;
+    margin-right: 0;
+  }
+  .right-quote-text{
+    padding-left: 0;
+  }
+  .quotes-slide{
+    min-width: 90vw;
+  }
+  /* .footer, .about-section, .contact, .hero-box, .tool-drop, .tool-combo, .quotes-block{
+    background-color: red;
+  } */
 }

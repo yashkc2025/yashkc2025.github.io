@@ -16,10 +16,14 @@
 body {
   background-color: #141617;
   padding: 2rem;
+
 }
 .footer {
   margin-top: 30px;
   text-align: center;
-  color: violet;
-  font-family: "Inter Tight";
+  color: rgb(255, 0, 255);
+  font-family: "Comforter Brush";
+}
+.App{
+  max-width: 100vw;
 }
