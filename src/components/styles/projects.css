@@ -6,7 +6,7 @@
   text-decoration-color: #00fbd6;
   font-size: 200%;
   text-align: center;
-  font-weight: 100;
+
 }
 
 .pro-image {
@@ -65,7 +65,7 @@
   display: flex;
   margin: 0px;
   justify-content: space-around;
-  overflow-x: auto;
+  overflow-x:scroll;
   overflow-y: hidden;
 }
 
