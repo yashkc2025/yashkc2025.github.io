@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <h1 className='mobile-only'>Mobile Version is under construction. Please use desktop version!</h1>
+      {/* <h1 className='mobile-only'>Mobile Version is under construction. Please use desktop version!</h1> */}
       <div className="App">
         <Mobile/>
         <Navbar />
