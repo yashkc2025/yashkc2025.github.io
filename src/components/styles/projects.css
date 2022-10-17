@@ -18,9 +18,7 @@
   object-position: 100% 0;
 }
 
-.pro-text:last-child {
-  bottom: 0;
-}
+
 .pro-text h1 {
   text-align: center;
   font-family: "Domine", serif;
@@ -36,7 +34,7 @@
 
 .pro-text button {
   height: 40px;
-  display: block;
+  /* display: inline; */
   margin-bottom: 20px;
   margin-left: 20px;
   border-radius: 15px;
@@ -46,7 +44,7 @@
 }
 .pro-text a {
   text-decoration: none;
-  text-align: start;
+  /* text-align: start; */
   color: springgreen;
 }
 
@@ -75,4 +73,8 @@
 
 .projects-view:hover > div:hover {
   filter: blur(0px);
+}
+
+faltu{
+  display:none;
 }
