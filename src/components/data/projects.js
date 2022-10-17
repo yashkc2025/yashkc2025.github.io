@@ -2,7 +2,7 @@ export default [
     {
         name: "Gui Calculator",
         logo: "https://repository-images.githubusercontent.com/534926619/2310d639-8977-4337-83ac-8f96d61c49b2",
-        desc: `A graphical calculator app to perform mathematical functions. This app has been designed with Flutter and Dart.`,
+        desc: `A complete graphical app to perform mathematical functions. This app has been designed with Flutter and Dart.`,
         link: "https://github.com/yashkc2025/gui_calculator",
         trylink: "https://yashkc2025.github.io/gui_calculator/",
         downlink: "https://github.com/yashkc2025/gui_calculator/releases/download/add_func/Calculator.apk",
