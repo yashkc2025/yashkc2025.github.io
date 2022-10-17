@@ -17,13 +17,9 @@ function App() {
         <Mobile/>
         <Navbar />
         <Hero />
-        {/* <hr></hr> */}
         <About/>
-        {/* <hr/> */}
         <ProjectsList/>
-        {/* <hr/> */}
         <Quotes />
-        {/* <hr/> */}
         <Contact/>
         <h3 className='footer'>«/» by Yash</h3>
       </div>
