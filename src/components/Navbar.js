@@ -12,7 +12,7 @@ export default function Navbar() {
                     <h3>⤎/»</h3>
                 </div>
                 <div>
-                    <a href="#">Resume</a>
+                    <a href="https://github.com/yashkc2025/yashkc2025.github.io/raw/main/assets/Yash%20Kumar.pdf">Resume</a>
                     <a className="about" href="#contact">Say Hi  !</a>
                 </div>
             </div>
