@@ -20,9 +20,7 @@
     /* padding-left:0px; */
     padding: 0 0 0 20px;
   }
-  .projects-view{
-    justify-content:start;
-  }
+
 }
 
 @media only screen and (max-width: 680px) {
@@ -61,6 +59,7 @@
   .about-section,
   .about-sub {
     margin-top: 50px;
+    margin-left: -1rem;
   }
 }
 

@@ -10,7 +10,7 @@
 }
 
 .pro-image {
-  width: 300px;
+  width: 350px;
   height: 180px;
   object-fit: cover;
   border-top-left-radius: 10px;
@@ -60,18 +60,21 @@
   flex-direction: column;
   flex-wrap: wrap;
   border-radius: 10px;
-  width: 300px;
+  width: 350px;
   margin-top: 50px;
   background-color: #282c34;
   
 }
 .projects-view {
+  /* background-color: #00fbd6; */
   color: white;
   display: flex;
-  margin: 0px;
+  flex-wrap: wrap;
+  /* margin-left: -3rem; */
+  justify-content: center;
   /* justify-content: space-around; */
-  overflow-x:scroll;
-  overflow-y: hidden;
+  /* overflow-x:scroll;
+  overflow-y: hidden; */
 }
 
 .projects-view:hover > div {
