@@ -26,6 +26,13 @@
 }
 
 @media only screen and (max-width: 680px) {
+  .projects-view:hover > div {
+    filter:none
+  }
+  
+  .projects-view:hover > div:hover {
+    filter: none
+  }
   .tool-drop {
     /* background-color: aliceblue; */
     margin-top: 100px;
@@ -58,6 +65,7 @@
 }
 
 @media only screen and (max-width: 620px) {
+  
   .navbar-drop {
     display: none;
   }

@@ -6,6 +6,9 @@ export default [
         link: "https://github.com/yashkc2025/gui_calculator",
         trylink: "https://yashkc2025.github.io/gui_calculator/",
         downlink: "https://github.com/yashkc2025/gui_calculator/releases/download/add_func/Calculator.apk",
+        tools: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg",
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg",
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"],
     },
     {
         name: "Login Screen",
@@ -14,6 +17,9 @@ export default [
         link: "https://github.com/yashkc2025/login-grey",
         trylink : "",
         downlink: "",
+        tools: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg",
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg",
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"],
     },
     {
         name: "Meme Generator",
@@ -22,6 +28,10 @@ export default [
         link: "https://github.com/yashkc2025/meme-gen",
         trylink : "",
         downlink: "",
+        tools : ["https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",],
     },
     {
         name: "BMI-app",
@@ -30,6 +40,10 @@ export default [
         link: "https://github.com/yashkc2025/bmi-app",
         trylink: "https://yashkc2025.github.io/bmi-app/",
         downlink: "https://github.com/yashkc2025/bmi-app/releases/download/1/bmi_app.1.apk",
+        tools: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg",
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg",
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"],
+
     },
     {
         name: "Travel Journal",
@@ -37,5 +51,10 @@ export default [
         desc: "A Travel journal for you to write all your memories. Made with React JS ",
         trylink : "",
         downlink: "",
+        tools : ["https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+        'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg',],
+
     }
 ]

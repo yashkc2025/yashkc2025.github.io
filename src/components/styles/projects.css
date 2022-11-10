@@ -13,34 +13,39 @@
   width: 300px;
   height: 180px;
   object-fit: cover;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   object-position: 100% 0;
 }
 
 
 .pro-text h1 {
-  text-align: center;
+  /* text-align: center; */
+  padding: 0 1rem;
+
   font-family: "Domine", serif;
   color: #00ffaa;
   font-weight: 300;
 }
 .pro-text h3 {
-  padding: 1rem;
-  text-align: center;
+  /* padding: 1rem; */
+  text-align: start;
+  padding: 0 1rem;
   font-family: "Inter Tight", serif;
   font-weight: 300;
 }
 
 .pro-text button {
   height: 40px;
-  /* display: inline; */
-  margin-bottom: 20px;
-  margin-left: 20px;
-  border-radius: 15px;
-  border-style: none;
-  background-color: #060117;
-  padding: 0 20px;
+
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 1rem;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0.5px;
+  background-color: #282c34;
+  padding: 0 10px;
 }
 .pro-text a {
   text-decoration: none;
@@ -49,14 +54,16 @@
 }
 
 .pro-item {
+  text-align: start;
   margin: 1rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border-radius: 15px;
+  border-radius: 10px;
   width: 300px;
   margin-top: 50px;
   background-color: #282c34;
+  
 }
 .projects-view {
   color: white;
@@ -77,4 +84,15 @@
 
 faltu{
   display:none;
+}
+
+.card-lang-img{
+  width:30px;
+  padding:5px
+}
+
+.pro-text div{
+  padding-bottom: 10px;
+  text-align: start;
+  padding:0 1rem;
 }

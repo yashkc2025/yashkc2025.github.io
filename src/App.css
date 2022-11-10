@@ -10,6 +10,9 @@
 
 @import "./components/styles/media-queries.css";
 
+.App{
+  cursor: url('https://raw.githubusercontent.com/yashkc2025/yashkc2025.github.io/main/assets/cursor.png'),auto;
+}
 .mobile-only {
   display: none;
   /* text-align: center; */
