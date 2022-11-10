@@ -5,6 +5,7 @@ export default function Contact() {
                 <a href="https://www.linkedin.com/in/yashkc2025/" className="fa fa-linkedin "></a>
                 <a href="https://github.com/yashkc2025" className="fa fa-github-alt"></a>
                 <a href="mailto:yashkc2025@gmail.com" className="fa fa-envelope"></a>
+                <a href="https://leetcode.com/betaal/"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/LeetCode_logo_white_no_text.svg"></img></a>
                 <a href="https://angel.co/u/yashkc2025" className="fa fa-angellist"></a>
                 <a href="https://t.me/Yashkc2025" className="fa fa-telegram"></a>
             </div>

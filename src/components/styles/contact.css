@@ -6,6 +6,9 @@
     align-items: center;
 }
 
+.contact img{
+    width:1.4rem;
+}
 .contact a{
     /* color: white; */
     padding:1rem;
@@ -13,8 +16,12 @@
     text-decoration: none;
 }
 
-.contact a:hover{
+.contact a:hover {
     font-size: 300%;
+}
+
+.contact img:hover{
+    width:2.5rem;
 }
 
 .contact-form{
