@@ -1,5 +1,9 @@
 export default[
     {
+        name: "Azure",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+    },
+    {
         name: "JavaScript",
         logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
     },
