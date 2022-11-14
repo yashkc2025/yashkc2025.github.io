@@ -13,6 +13,15 @@ export default [
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"],
     },
     {
+        name: "Shortier",
+        logo: "",
+        desc: "A Link shortener with support for various providers. Written in Python. Run directly from Terminal/CMD",
+        link: "https://github.com/yashkc2025/shortier",
+        trylink: "",
+        downlink: "",
+        tools: ["https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg",]
+    },
+    {
         name: "Login Screen",
         logo: "https://repository-images.githubusercontent.com/534338049/93a8ed37-e1dc-48d6-83c2-4c8939a4daa3",
         desc: "A pink coloured login screen made using Flutter and Dart. It provides the ability to login as well as registering a user.",
