@@ -14,7 +14,7 @@ export default [
     },
     {
         name: "Shortier",
-        logo: "",
+        logo: "https://addons.mozilla.org/user-media/previews/full/217/217631.png?modified=1622132759",
         desc: "A Link shortener with support for various providers. Written in Python. Run directly from Terminal/CMD",
         link: "https://github.com/yashkc2025/shortier",
         trylink: "",
