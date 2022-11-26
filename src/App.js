@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Mobile from './components/Mobile';
 import ProjectsList from './components/ProjectsList';
+import Education from './components/Education';
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
         <Hero />
         <About/>
         <ProjectsList/>
-        <Quotes />
+        <Education/>
+        {/* <Quotes /> */}
         <Contact/>
         <h3 className='footer'>«/» by Yash</h3>
       </div>

@@ -4,9 +4,19 @@
     display: none;
   }
 
+
   /* body{
       background-color: white;
     } */
+}
+
+@media only screen and (max-width:1200px){
+  .edu{
+    padding:0;
+  }
+  .flex-college{
+    justify-content: center;
+  }
 }
 @media only screen and (max-width: 870px) {
   .hiding {
@@ -20,6 +30,7 @@
     /* padding-left:0px; */
     padding: 0 0 0 20px;
   }
+
 
 }
 
@@ -79,6 +90,12 @@
   .tool-combo {
     margin-left: 0;
   }
+  .college img {
+    height: 6rem;
+  }
+  .qual{
+    margin-left:-5rem;
+  }
 }
 
 @media only screen and (max-width: 430px) {
@@ -99,6 +116,9 @@
   }
   .quotes-slide{
     min-width: 90vw;
+  }
+  .qual-year{
+    display: none;
   }
   /* .footer, .about-section, .contact, .hero-box, .tool-drop, .tool-combo, .quotes-block{
     background-color: red;
