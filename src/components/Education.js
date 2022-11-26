@@ -3,7 +3,7 @@ export default function Education() {
         <div className="edu">
             <h1>↬ My Education !</h1>
             <div className="college flex-college">
-                <img src="https://upload.wikimedia.org/wikipedia/en/9/95/CBSE_new_logo.svg"></img>
+                <img className="cbse-logo" src="https://upload.wikimedia.org/wikipedia/en/9/95/CBSE_new_logo.svg"></img>
 
                 <div>
                     <h2>Central Board of Secondary Education</h2>
@@ -14,7 +14,7 @@ export default function Education() {
                 </div>
             </div>
             <div className="college flex-college">
-                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/1200px-IIT_Madras_Logo.svg.png"></img>
+                <img className="iitm-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/1200px-IIT_Madras_Logo.svg.png"></img>
 
                 <div>
                     <h2>Indian Institute of Technology Madras</h2>

@@ -1,4 +1,5 @@
 .edu {
+  color:white;
   padding: 0 15rem;
   font-family: "Domine";
 }
@@ -10,9 +11,6 @@
   text-decoration-line: overline;
   text-decoration-style: wavy;
   text-decoration-color: #00fbd6;
-}
-.college img {
-  height: 8rem;
 }
 
 .flex-college {
@@ -29,7 +27,15 @@
 }
 
 .qual{
+  width:50vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.iitm-logo{
+  height: 7rem;
+}
+.cbse-logo{
+  height: 8rem;
 }
