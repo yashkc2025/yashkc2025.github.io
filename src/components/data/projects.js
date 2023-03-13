@@ -33,6 +33,18 @@ export default [
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"],
     },
     {
+        name: "Samosa Inc",
+        logo: "https://raw.githubusercontent.com/yashkc2025/yashkc2025.github.io/main/assets/samosa.png",
+        desc: "A website to order Samosa directly to your home",
+        trylink: "https://yashkc2025.github.io/Samosa-Inc/",
+        downlink: "",
+        tools: ["https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",],
+        
+    },
+    {
         name: "Meme Generator",
         logo: "https://repository-images.githubusercontent.com/549565410/6d4223cc-f6c5-4df5-bfc0-362df8cb146b",
         desc: "A meme generator that let's you design your own memes. Just enter text and click generate meme.",
